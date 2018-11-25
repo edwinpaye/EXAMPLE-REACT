@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Boton extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {count: 1};
+      this.state = {count: 1, texto: "hola"};
     }
 
     render() {
@@ -14,7 +14,9 @@ class Boton extends React.Component {
             onClick={() => this.setState(state => ({count: state.count + 1}))}>
             Count: {this.state.count}
           </button>
-          <input></input>
+          <button onClick={() => this.setState(state => ({texto:"texto"}))}></button>
+          <input ></input>
+          <h1>{this.state.count}:{this.state.texto}</h1>
         </div>
       );
     }
