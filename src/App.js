@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ComponenteUno from './ComponenteUno.js'
 import Home from './Home.jsx'
+import Boton from './Boton.js'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         </header>
         <ComponenteUno/>
         <Home></Home>
+        <Boton></Boton>
       </div>
     );
   }
