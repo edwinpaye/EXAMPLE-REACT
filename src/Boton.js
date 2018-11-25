@@ -5,7 +5,7 @@ class Boton extends React.Component {
       super(props);
       this.state = {
         count: 0,
-        personas: [{count: 1, texto: "hola"}, {count: 2, texto: "Saludos"}, {count: 3, texto: "Tres"}]
+        personas: [{count: 1, texto: "hola"}, {count: 2, texto: "Saludos"}, {count: 3, texto: "Buenas"}]
       }
     }
 
