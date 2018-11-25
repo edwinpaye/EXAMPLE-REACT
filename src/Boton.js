@@ -5,17 +5,7 @@ class Boton extends React.Component {
       super(props);
       this.state = {count: 1};
     }
-  
-    shouldComponentUpdate(nextProps, nextState) {
-      if (this.props.color !== nextProps.color) {
-        return true;
-      }
-      if (this.state.count !== nextState.count) {
-        return true;
-      }
-      return false;
-    }
-  
+
     render() {
       return (
         <button
