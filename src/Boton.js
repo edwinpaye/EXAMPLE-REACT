@@ -8,11 +8,14 @@ class Boton extends React.Component {
 
     render() {
       return (
-        <button
-          color={this.props.color}
-          onClick={() => this.setState(state => ({count: state.count + 1}))}>
-          Count: {this.state.count}
-        </button>
+        <div>
+          <button
+            color={this.props.color}
+            onClick={() => this.setState(state => ({count: state.count + 1}))}>
+            Count: {this.state.count}
+          </button>
+          <input></input>
+        </div>
       );
     }
 }
