@@ -8,7 +8,7 @@ class Boton extends React.Component {
         personas: [{count: 1, texto: "hola"}, {count: 2, texto: "Dos"}, {count: 3, texto: "Tres"}]
       }
     }
-      
+
     sumar() {
       return () => this.setState(state => ({count: state.count + 1}))
     }
@@ -30,7 +30,7 @@ class Boton extends React.Component {
       }));
     }
 
-    getTexto(i){
+    getText(i){
       return this.state.personas[i].texto
     }
 
