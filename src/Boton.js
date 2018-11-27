@@ -46,7 +46,7 @@ class Boton extends React.Component {
             </button>
             <button onClick={this.resta()}>Decremento</button>
             {/* <input ></input> */}
-            <h1>{this.contador()}:{this.getTexto(i)}</h1>
+            <h1>{this.contador()}:{this.getText(i)}</h1>
             <h1>Lista:</h1>
             <ul>{personass}</ul>
         </div>
